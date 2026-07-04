@@ -77,10 +77,10 @@ const IndustryDetail = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Industry Challenges</h3>
             <ul className="space-y-4 w-full text-left flex-grow">
-              {[1, 2, 3].map((i) => (
-                <li key={i} className="flex items-start">
+              {industry.challenges?.map((challenge, idx) => (
+                <li key={idx} className="flex items-start">
                   <CheckCircle2 size={18} className="text-[#ff5a00] mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-600 font-medium text-sm leading-relaxed">Addressing legacy systems and scale.</span>
+                  <span className="text-gray-600 font-medium text-sm leading-relaxed">{challenge}</span>
                 </li>
               ))}
             </ul>
@@ -93,10 +93,10 @@ const IndustryDetail = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">Our Solutions</h3>
             <ul className="space-y-4 w-full text-left flex-grow">
-              {[1, 2, 3].map((i) => (
-                <li key={i} className="flex items-start">
+              {industry.solutions?.map((solution, idx) => (
+                <li key={idx} className="flex items-start">
                   <CheckCircle2 size={18} className="text-[#ff5a00] mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-600 font-medium text-sm leading-relaxed">Modern, cloud-native architecture.</span>
+                  <span className="text-gray-600 font-medium text-sm leading-relaxed">{solution}</span>
                 </li>
               ))}
             </ul>
@@ -109,10 +109,10 @@ const IndustryDetail = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">The Impact</h3>
             <ul className="space-y-4 w-full text-left flex-grow">
-              {[1, 2, 3].map((i) => (
-                <li key={i} className="flex items-start">
+              {industry.impact?.map((impact, idx) => (
+                <li key={idx} className="flex items-start">
                   <CheckCircle2 size={18} className="text-[#ff5a00] mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-600 font-medium text-sm leading-relaxed">Increased efficiency and revenue.</span>
+                  <span className="text-gray-600 font-medium text-sm leading-relaxed">{impact}</span>
                 </li>
               ))}
             </ul>
