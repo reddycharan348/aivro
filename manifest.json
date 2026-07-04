@@ -1,0 +1,27 @@
+{
+    "name": "Aivro - Professional Website Design Agency",
+    "short_name": "Aivro",
+    "description": "We create stunning, conversion-focused websites delivered in just 1 week. Business websites, e-commerce stores, and portfolios.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0c0f0a",
+    "theme_color": "#10b981",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en",
+    "categories": ["business", "web development", "design"],
+    "icons": [
+        {
+            "src": "images/logo/logo1.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/logo/logo1.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

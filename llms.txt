@@ -1,0 +1,101 @@
+# Aivro - Professional Static Website Design Agency
+
+> Aivro is a professional static website design agency based in India that creates stunning, fast-loading websites delivered in just 1 week.
+
+## About Aivro
+
+Aivro is a static website design agency founded by E Charan Kumar Reddy and R Shakthi Prasad. We specialize in creating professional static websites for businesses, landing pages, and portfolios. Our unique selling point is delivering high-quality, custom-built static websites in just 1 week.
+
+## Services
+
+### Business Landing Page
+Professional single-page website that showcases your business, services, and builds trust with customers. Includes custom design, mobile responsive layout, contact form integration, WhatsApp button, and social media links.
+
+### Multi-Page Static Website
+Complete static website with multiple pages - Home, About, Services, Gallery, and Contact pages. Up to 5 pages, fast loading speed, SEO optimized, image gallery, and Google Maps integration.
+
+### Portfolio Website Design
+Showcase your work beautifully with stunning gallery layouts, project showcases, about & contact pages, testimonials section, and resume/CV integration.
+
+## Portfolio / Past Work
+
+1. **Naveen Textiles** - naveentextiles.online
+   - E-commerce website for textile business
+   - 30% increase in inquiries
+
+2. **Balu Associates** - baluassociates.net
+   - Professional consulting website
+   - 5-star client satisfaction
+
+3. **Charan Kumar Reddy** - reddycharan.me
+   - Personal portfolio website
+
+4. **Shakthi Prasad** - shakthiprasad.me
+   - Creative portfolio website
+
+## Key Features
+
+- **1 Week Delivery**: Fast turnaround without compromising quality
+- **Custom Design**: No templates, every website is unique
+- **Mobile Responsive**: Works perfectly on all devices
+- **SEO Optimized**: Built for search engine visibility
+- **24-Hour Response**: Quick communication and support
+- **100% Satisfaction**: We work until you're happy
+
+## Contact Information
+
+- **Website**: https://aivro.online
+- **Email**: aivro348@gmail.com
+- **WhatsApp**: +91 90325 17427
+- **Response Time**: Within 24 hours
+
+## Location
+
+India (Serving clients worldwide)
+
+## Pricing
+
+🔥 **LIMITED TIME OFFER: ₹5,599 + FREE Hosting**
+
+- Complete static website design at just ₹5,599 (Regular price: ₹9,999)
+- FREE Hosting included
+- 1 Week delivery
+- Mobile responsive
+- SEO optimized
+- All static website types (Landing Page, Multi-Page, Portfolio) at same price
+
+Contact for free quote.
+
+## Technologies Used
+
+- Figma (Design)
+- VS Code (Development)
+- HTML5, CSS3, JavaScript (Frontend)
+- Tailwind CSS (Styling)
+- Vercel, Netlify (Hosting)
+- GitHub (Version Control)
+- AI Tools: ChatGPT, Claude AI, Cursor
+
+## Social Media
+
+- Instagram: https://www.instagram.com/aivro348/
+- LinkedIn: /company/aivro
+- Twitter: @aivro
+
+## FAQ
+
+**Q: How long does it take to build a static website?**
+A: Most static websites are delivered in 1 week. Multi-page websites might take 7-10 days.
+
+**Q: Do you provide hosting and domain?**
+A: LIMITED TIME OFFER: FREE Hosting Included! With our current offer at ₹5,599, we provide FREE hosting for your static website. You only need to pay for the domain name (typically ₹500-1000/year).
+
+**Q: Can you redesign my existing website?**
+A: Yes! We can redesign your existing website to make it modern and fast-loading.
+
+**Q: What if I need changes after launch?**
+A: We provide 1 month of free support after launch. Maintenance packages available from ₹2,000/month.
+
+---
+
+For more information, visit https://aivro.online or contact us on WhatsApp at +91 90325 17427.
