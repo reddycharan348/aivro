@@ -3,35 +3,23 @@ import {
   Palette, MapPin, Code2, Briefcase, Layers, Search, BarChart3, Headphones,
   MessageCircle, Share2, PenTool, ShoppingBag, Server, FileText, Megaphone, Mail,
   GraduationCap, Film, Landmark, Calculator, Rocket, Shirt, Plane, Truck, 
-  UtensilsCrossed, Factory, Home, Monitor, Trophy, Users, Stethoscope, ShoppingCart
+  UtensilsCrossed, Factory, Home, Monitor, Trophy, Users, Stethoscope, ShoppingCart,
+  Smartphone
 } from 'lucide-react';
 
 export const servicesData = [
   { 
-    id: 'website-design',
-    icon: <Palette size={32} />, 
-    title: 'Website Design', 
-    desc: 'Stunning, brand-aligned UI/UX designs that captivate visitors and drive conversions.',
-    longDesc: 'Your website is the digital storefront of your business. If it looks outdated or is hard to navigate, visitors will leave in seconds. We engineer advanced UI/UX designs focused on human psychology and conversion rate optimization. By combining beautiful aesthetics with seamless usability, we create digital experiences that instantly build trust, reflect your brand’s premium quality, and guide visitors effortlessly toward becoming loyal customers.',
-    color: 'from-blue-500 to-blue-600',
-    iconBg: 'bg-blue-500/10 text-blue-500',
-    imageUrl: '/images/services/web-design.png',
-    features: ['High-fidelity interactive prototyping', 'Mobile-first responsive layouts', 'Custom modern design systems'],
-    benefits: ['Drastically reduced bounce rates', 'Higher user engagement and trust', 'A stronger, memorable brand identity'],
-    results: ['Increased overall conversions', 'Better accessibility for all users', 'A scalable digital foundation']
-  },
-  { 
     id: 'website-development',
     icon: <Code2 size={32} />, 
-    title: 'Website Development', 
-    desc: 'Fast, responsive, SEO-friendly websites built with modern technologies.',
-    longDesc: 'A beautiful design means nothing if your website is slow, buggy, or constantly crashes. We build highly optimized, ultra-fast websites using modern frameworks like React and Next.js. Our development process prioritizes clean code, enterprise-grade security, and lightning-fast load times. We ensure your site performs flawlessly across all devices and browsers, giving your users a premium, frustration-free experience.',
+    title: 'Web Design & Development', 
+    desc: 'Stunning UI/UX designs combined with fast, responsive, SEO-friendly development.',
+    longDesc: 'Your website is the digital storefront of your business. We provide end-to-end solutions, combining beautiful, conversion-optimized UI/UX designs with ultra-fast, modern development using React and Next.js. We ensure your site performs flawlessly across all devices, giving your users a premium, frustration-free experience that builds trust and drives massive sales.',
     color: 'from-emerald-500 to-emerald-600',
     iconBg: 'bg-emerald-500/10 text-emerald-500',
     imageUrl: '/images/services/web-development.png',
-    features: ['Modern React & Next.js architectures', 'Headless CMS integrations', 'Global CDN deployment strategies'],
-    benefits: ['Sub-second page load speeds', 'Bank-level security protocols', 'Effortless internal content updates'],
-    results: ['99.99% Server uptime', 'Flawless mobile experiences', 'Scalable infrastructure for growth']
+    features: ['High-fidelity UI/UX design prototyping', 'Modern React & Next.js architectures', 'Mobile-first responsive layouts'],
+    benefits: ['Higher user engagement and trust', 'Sub-second page load speeds', 'A stronger, memorable brand identity'],
+    results: ['Increased overall conversions', '99.99% Server uptime', 'Scalable infrastructure for growth']
   },
   { 
     id: 'google-profile',
@@ -47,17 +35,17 @@ export const servicesData = [
     results: ['More direct phone calls', 'Increased website clicks', 'Dominance in the local Map Pack']
   },
   { 
-    id: 'web-app-development',
-    icon: <Layers size={32} />, 
-    title: 'Web App Development', 
-    desc: 'Complex web applications — SaaS dashboards, portals, and interactive platforms.',
-    longDesc: 'Off-the-shelf software often forces you to change your business to fit the tool. We build custom web applications that fit perfectly around your unique business processes. Whether you need a complex SaaS dashboard, a secure customer portal, or an internal workflow management system, we develop scalable, real-time applications that eliminate manual tasks, connect your data securely, and dramatically reduce operational overhead.',
+    id: 'app-development',
+    icon: <Smartphone size={32} />, 
+    title: 'App Development (iOS & Android)', 
+    desc: 'High-performance native and cross-platform mobile applications.',
+    longDesc: 'In a mobile-first world, your business needs to live in your customers\' pockets. We build powerful, intuitive mobile applications for both iOS and Android. Whether you need a customer-facing utility app, an e-commerce mobile store, or an internal enterprise tool, we develop highly responsive apps that leverage device hardware to deliver seamless, engaging mobile experiences.',
     color: 'from-violet-500 to-violet-600',
     iconBg: 'bg-violet-500/10 text-violet-500',
     imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
-    features: ['Real-time interactive dashboards', 'Bespoke API development', 'Secure payment gateway integrations'],
-    benefits: ['Streamlined internal workflows', 'Data-driven decision making capabilities', 'Significantly reduced operational costs'],
-    results: ['Infinitely scalable infrastructure', 'High user retention rates', 'Fully automated business logic']
+    features: ['Cross-platform React Native & Flutter development', 'Native iOS (Swift) & Android (Kotlin) apps', 'Secure API and backend integrations'],
+    benefits: ['Direct access to your customers\' home screens', 'Enhanced customer loyalty and engagement', 'Push notifications for instant marketing'],
+    results: ['Massive increase in mobile revenue', 'Higher user retention rates', 'A dominant presence on App Stores']
   },
   { 
     id: 'portfolio-websites',
@@ -67,7 +55,7 @@ export const servicesData = [
     longDesc: 'Your portfolio is your ultimate sales pitch. A generic template won’t capture the unique brilliance of your work. We design bespoke, dynamic portfolio websites that serve as a stunning digital gallery for your achievements. By leveraging smooth animations, interactive case studies, and perfect typography, we transform your past projects into powerful magnets for high-ticket clients and career-defining opportunities.',
     color: 'from-amber-500 to-amber-600',
     iconBg: 'bg-amber-500/10 text-amber-500',
-    imageUrl: 'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/services/portfolio-websites.png',
     features: ['Dynamic media and video galleries', 'Interactive, immersive case studies', 'Personalized branding aesthetics'],
     benefits: ['Instantly stand out from competitors', 'Effortless high-tier client acquisition', 'A highly professional online presence'],
     results: ['More inbound project inquiries', 'Higher perceived market value', 'Global digital reach for your brand']
@@ -106,7 +94,7 @@ export const servicesData = [
     longDesc: 'Customers expect instant replies, and email is simply too slow. WhatsApp boasts open rates exceeding 90%, making it the ultimate tool for modern customer engagement. We build intelligent WhatsApp chatbots and integrate the official Business API to automate lead capture, handle customer support 24/7, and send targeted broadcast campaigns. Turn the world’s most popular messaging app into your automated sales engine.',
     color: 'from-green-500 to-green-600',
     iconBg: 'bg-green-500/10 text-green-500',
-    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/services/whatsapp.png',
     features: ['AI-driven automated chatbot flows', 'Direct CRM system integrations', 'High-volume broadcast messaging'],
     benefits: ['Instant, 24/7 customer support', 'Massively higher open rates than email', 'Drastically reduced support ticket volume'],
     results: ['Automated, around-the-clock lead capture', 'Lightning-fast issue resolution', 'Measurable increases in sales conversions']
@@ -246,7 +234,7 @@ export const industriesData = [
     icon: <Film size={32} />,
     desc: 'Streaming platforms, event websites, and media production portfolios.',
     longDesc: 'In the entertainment industry, visual impact and performance are everything. A slow or uninspiring website will kill your audience’s excitement instantly. We build stunning, high-performance platforms for media producers, event organizers, and streaming services. From handling massive traffic spikes during ticket launches to streaming high-definition video flawlessly, we ensure your digital presence is as captivating as your content.',
-    imageUrl: 'https://images.unsplash.com/photo-1470229722913-7c092bba1d19?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/industries/entertainment.png',
     challenges: ['Website crashes during high-traffic ticket launches', 'Slow loading times for high-definition media', 'Standing out in a highly visual, competitive market'],
     solutions: ['Auto-scaling cloud infrastructure for traffic spikes', 'Optimized media delivery networks for instant loading', 'Cutting-edge, highly immersive UI/UX design'],
     impact: ['Flawless performance during major event launches', 'Incredible user engagement with rich media', 'A premium brand perception that drives ticket sales']
@@ -323,7 +311,7 @@ export const industriesData = [
     icon: <Truck size={32} />,
     desc: 'Fleet management dashboards, tracking portals, and logistics websites.',
     longDesc: 'In the logistics and freight industry, efficiency and transparency are your biggest selling points. Clients want to know exactly where their cargo is at all times. We build powerful digital tracking portals and fleet management dashboards. By integrating real-time GPS tracking APIs and automated quote calculators, we modernize your logistics business, giving you a massive edge over traditional competitors.',
-    imageUrl: 'https://images.unsplash.com/photo-1586528116311-ad8ed7c663c0?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/industries/logistics.png',
     challenges: ['Clients demanding real-time updates on their shipments', 'Inefficient, manual quoting and pricing processes', 'Managing massive fleets with outdated software'],
     solutions: ['Secure client portals with real-time GPS tracking integrations', 'Automated freight quoting and booking systems', 'Custom fleet management dashboards for dispatchers'],
     impact: ['Drastically reduced customer support calls for tracking', 'Faster sales cycles with automated quotes', 'Streamlined, error-free fleet coordination']
