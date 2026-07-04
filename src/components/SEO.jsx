@@ -5,7 +5,8 @@ const SEO = ({
   title, 
   description, 
   keywords, 
-  canonicalUrl 
+  canonicalUrl,
+  schema
 }) => {
   const siteName = 'Aivro Studio';
   const fullTitle = title ? `${title} | ${siteName}` : siteName;
@@ -29,6 +30,13 @@ const SEO = ({
       <meta name="twitter:description" content={description} />
       
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+
+      {/* JSON-LD Schema Markup */}
+      {schema && (
+        <script type="application/ld+json">
+          {JSON.stringify(schema)}
+        </script>
+      )}
     </Helmet>
   );
 };

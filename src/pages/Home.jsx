@@ -12,9 +12,37 @@ import TechStack from '../components/TechStack';
 import ScrollSequence from '../components/ScrollSequence';
 
 const Home = () => {
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://aivro.online/#website",
+        "url": "https://aivro.online/",
+        "name": "Aivro Studio",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://aivro.online/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://aivro.online/#organization",
+        "name": "Aivro Studio",
+        "url": "https://aivro.online/",
+        "logo": "https://aivro.online/images/logo/aivrologo.png"
+      }
+    ]
+  };
+
   return (
     <div className="bg-transparent relative">
-      <SEO title="Bespoke Creative Engineering & AI Studio" description="Aivro is an ultra-premium creative tech and AI studio crafting bleeding-edge web platforms and custom mobile systems." />
+      <SEO 
+        title="Bespoke Creative Engineering & AI Studio" 
+        description="Aivro is an ultra-premium creative tech and AI studio crafting bleeding-edge web platforms and custom mobile systems." 
+        schema={homeSchema}
+      />
       <ScrollSequence />
       <Hero />
       <Motive />
