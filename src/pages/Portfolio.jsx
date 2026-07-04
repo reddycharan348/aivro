@@ -59,12 +59,9 @@ const ProjectCard = ({ project }) => {
       {/* Content */}
       <div className="p-8 pt-8 flex-grow flex flex-col bg-white z-10 relative">
         <span className="text-xs font-bold text-green-600 mb-2 block uppercase tracking-wider">{project.category}</span>
-        <h3 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight group-hover:text-green-600 transition-colors">
+        <h3 className="text-2xl font-bold text-gray-900 mb-6 tracking-tight group-hover:text-green-600 transition-colors flex-grow">
           {project.title}
         </h3>
-        <p className="text-[15px] text-gray-600 font-medium leading-relaxed mb-6 flex-grow">
-          {project.solution} {project.impact}
-        </p>
         <div className="flex items-center text-gray-400 text-sm font-bold group-hover:text-green-600 transition-all duration-300 mt-auto">
           View Live Project <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
         </div>
