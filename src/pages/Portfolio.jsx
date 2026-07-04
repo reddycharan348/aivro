@@ -119,6 +119,18 @@ const Portfolio = () => {
       challenge: "Processing and displaying highly complex data dynamically without any user-facing latency.",
       solution: "Architected a Next.js application deployed on edge networks for instantaneous real-time data fetching.",
       impact: "Achieved a perfect Lighthouse score, providing an incredibly fluid experience on all devices."
+    },
+    {
+      title: "Geo Silicon",
+      category: "Corporate Platform",
+      images: [
+        "/images/projects/geo-silicon.png",
+        "/images/projects/geo-silicon1.png"
+      ],
+      url: "https://geo-silicon.com/",
+      challenge: "Building a modern, professional web presence.",
+      solution: "Developed a responsive platform.",
+      impact: "Enhanced digital footprint and credibility."
     }
   ];
 
