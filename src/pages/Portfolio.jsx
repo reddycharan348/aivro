@@ -86,7 +86,7 @@ const Portfolio = () => {
     },
     {
       title: "RVS Hydraulics",
-      category: "Industrial & Manufacturing",
+      category: "Sales and Services",
       images: [
         "/images/projects/rvs1.png",
         "/images/projects/rvs2.png"
@@ -98,7 +98,7 @@ const Portfolio = () => {
     },
     {
       title: "Balu Associates",
-      category: "Real Estate & Consulting",
+      category: "Audit and Tax Consultancy",
       images: [
         "/images/projects/baluassocities1.png",
         "/images/projects/baluassocities2.png"
@@ -109,8 +109,8 @@ const Portfolio = () => {
       impact: "Solidified market positioning and improved organic search visibility by 80%."
     },
     {
-      title: "Kada GWRS",
-      category: "Custom Web Application",
+      title: "Kuppam Area Development Authority",
+      category: "Designed for IITK",
       images: [
         "/images/projects/kadagwrs.png",
         "/images/projects/kadagwrs1.png"
