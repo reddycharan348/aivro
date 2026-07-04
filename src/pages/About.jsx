@@ -117,19 +117,19 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
             
             {/* Profile 1 (Charan) */}
-            <div className="text-left bg-white p-8 md:p-10 rounded-[32px] border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
-              <div className="w-full aspect-[4/5] bg-gray-100 rounded-[28px] mb-6 overflow-hidden border border-gray-200 group">
+            <div className="text-left bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
+              <div className="w-full aspect-square bg-gray-100 rounded-xl mb-4 overflow-hidden border border-gray-200 group">
                 <img 
                   src="/images/team-charan.avif" 
                   alt="Mr. E. Charan Kumar Reddy" 
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
                 />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 tracking-tight mb-1">Mr. E. Charan Kumar Reddy</h3>
-              <p className="text-green-600 font-bold text-[11px] uppercase tracking-wider mb-1">AI Enthusiast & Explorer</p>
-              <p className="text-gray-500 font-semibold text-[11px] tracking-wider mb-5">Electronics & Communication Engineering</p>
+              <h3 className="text-xl font-bold text-gray-900 tracking-tight mb-1">Mr. E. Charan Kumar Reddy</h3>
+              <p className="text-green-600 font-bold text-[10px] uppercase tracking-wider mb-1">AI Enthusiast & Explorer</p>
+              <p className="text-gray-500 font-semibold text-[10px] tracking-wider mb-3">Electronics & Communication Engineering</p>
               
-              <p className="text-sm text-gray-600 font-medium leading-relaxed mb-8 flex-grow">
+              <p className="text-xs text-gray-600 font-medium leading-relaxed mb-4 flex-grow">
                 Curious explorer of AI technologies and data-driven solutions. Combines technical curiosity with a passion for building web applications as a creative outlet.
               </p>
               
@@ -141,33 +141,33 @@ const About = () => {
                 ))}
               </div>
 
-              <div className="flex gap-3 pt-6 border-t border-gray-100 mt-auto">
-                <a href="https://github.com/reddycharan348" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all shadow-sm">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4"/><path d="M9 18c-4.5 1.5-5-2.5-7-3"/></svg>
+              <div className="flex gap-2 pt-4 border-t border-gray-100 mt-auto">
+                <a href="https://github.com/reddycharan348" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all shadow-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4"/><path d="M9 18c-4.5 1.5-5-2.5-7-3"/></svg>
                 </a>
-                <a href="https://reddycharan.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
-                  <Globe size={18} />
+                <a href="https://reddycharan.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                  <Globe size={16} />
                 </a>
-                <a href="mailto:reddycharan348@gmail.com" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-pink-600 hover:text-white hover:border-pink-600 transition-all shadow-sm">
-                  <Mail size={18} />
+                <a href="mailto:reddycharan348@gmail.com" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-pink-600 hover:text-white hover:border-pink-600 transition-all shadow-sm">
+                  <Mail size={16} />
                 </a>
               </div>
             </div>
 
             {/* Profile 2 (Shakthi) */}
-            <div className="text-left bg-white p-8 md:p-10 rounded-[32px] border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
-              <div className="w-full aspect-[4/5] bg-gray-100 rounded-[28px] mb-6 overflow-hidden border border-gray-200 group">
+            <div className="text-left bg-white p-6 rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
+              <div className="w-full aspect-square bg-gray-100 rounded-xl mb-4 overflow-hidden border border-gray-200 group">
                 <img 
                   src="/images/team-shakthi.avif" 
                   alt="Mr. R. Shakthi Prasad" 
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out" 
                 />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 tracking-tight mb-1">Mr. R. Shakthi Prasad</h3>
-              <p className="text-green-600 font-bold text-[11px] uppercase tracking-wider mb-1">AI Enthusiast & Explorer</p>
-              <p className="text-gray-500 font-semibold text-[11px] tracking-wider mb-5">Electronics & Communication Engineering</p>
+              <h3 className="text-xl font-bold text-gray-900 tracking-tight mb-1">Mr. R. Shakthi Prasad</h3>
+              <p className="text-green-600 font-bold text-[10px] uppercase tracking-wider mb-1">AI Enthusiast & Explorer</p>
+              <p className="text-gray-500 font-semibold text-[10px] tracking-wider mb-3">Electronics & Communication Engineering</p>
               
-              <p className="text-sm text-gray-600 font-medium leading-relaxed mb-8 flex-grow">
+              <p className="text-xs text-gray-600 font-medium leading-relaxed mb-4 flex-grow">
                 Passionate about exploring artificial intelligence and its real-world applications. Web development is a creative hobby that brings ideas to life through intuitive digital experiences.
               </p>
               
@@ -179,15 +179,15 @@ const About = () => {
                 ))}
               </div>
 
-              <div className="flex gap-3 pt-6 border-t border-gray-100 mt-auto">
-                <a href="https://github.com/shakthiprasad243" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all shadow-sm">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4"/><path d="M9 18c-4.5 1.5-5-2.5-7-3"/></svg>
+              <div className="flex gap-2 pt-4 border-t border-gray-100 mt-auto">
+                <a href="https://github.com/shakthiprasad243" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all shadow-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-6.5a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 5 3 6.2 6 6.5a4.8 4.8 0 0 0-1 3.2v4"/><path d="M9 18c-4.5 1.5-5-2.5-7-3"/></svg>
                 </a>
-                <a href="https://shakthiprasad.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
-                  <Globe size={18} />
+                <a href="https://shakthiprasad.me/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-green-600 hover:text-white hover:border-green-600 transition-all shadow-sm">
+                  <Globe size={16} />
                 </a>
-                <a href="mailto:shakthiprasad243@gmail.com" className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-pink-600 hover:text-white hover:border-pink-600 transition-all shadow-sm">
-                  <Mail size={18} />
+                <a href="mailto:shakthiprasad243@gmail.com" className="flex items-center justify-center w-9 h-9 rounded-full bg-gray-50 border border-gray-200 text-gray-500 hover:bg-pink-600 hover:text-white hover:border-pink-600 transition-all shadow-sm">
+                  <Mail size={16} />
                 </a>
               </div>
             </div>
