@@ -1,13 +1,87 @@
-import React from 'react';
-import { ExternalLink, Target, Lightbulb, TrendingUp, Building2, ShieldCheck, ShoppingCart } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ExternalLink, Target, Lightbulb, TrendingUp, Building2, ShieldCheck, ShoppingCart, ChevronLeft, ChevronRight } from 'lucide-react';
 import TiltCard from '../components/TiltCard';
+
+const ProjectCard = ({ project }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % project.images.length);
+    }, 3500); // 3.5 seconds auto-slide
+    return () => clearInterval(timer);
+  }, [project.images.length]);
+
+  const nextSlide = (e) => {
+    e.preventDefault();
+    setCurrentIndex((prev) => (prev + 1) % project.images.length);
+  };
+  const prevSlide = (e) => {
+    e.preventDefault();
+    setCurrentIndex((prev) => (prev - 1 + project.images.length) % project.images.length);
+  };
+
+  return (
+    <a 
+      href={project.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group w-full bg-white rounded-[2rem] overflow-hidden transition-all duration-500 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 flex flex-col"
+    >
+      {/* Image Header with Slider */}
+      <div className="h-56 overflow-hidden relative">
+        {project.images.map((img, idx) => (
+          <img 
+            key={idx}
+            src={img} 
+            alt={`${project.title} slide ${idx + 1}`} 
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out ${idx === currentIndex ? 'opacity-100' : 'opacity-0'} group-hover:scale-105`}
+            style={{ transitionProperty: 'opacity, transform' }}
+          />
+        ))}
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-80 pointer-events-none z-10"></div>
+        
+        {/* Navigation Arrows */}
+        <div className="absolute inset-0 flex items-center justify-between px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+          <button onClick={prevSlide} className="p-1.5 rounded-full bg-white/20 hover:bg-white/40 text-white backdrop-blur-sm transition-all ml-2">
+            <ChevronLeft size={20} />
+          </button>
+          <button onClick={nextSlide} className="p-1.5 rounded-full bg-white/20 hover:bg-white/40 text-white backdrop-blur-sm transition-all mr-2">
+            <ChevronRight size={20} />
+          </button>
+        </div>
+
+        <div className="absolute top-6 left-6 w-14 h-14 rounded-full bg-white flex items-center justify-center text-green-600 shadow-md group-hover:scale-110 transition-transform duration-300 z-30">
+          <ExternalLink size={24} />
+        </div>
+      </div>
+      
+      {/* Content */}
+      <div className="p-8 pt-8 flex-grow flex flex-col bg-white z-10 relative">
+        <span className="text-xs font-bold text-green-600 mb-2 block uppercase tracking-wider">{project.category}</span>
+        <h3 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight group-hover:text-green-600 transition-colors">
+          {project.title}
+        </h3>
+        <p className="text-[15px] text-gray-600 font-medium leading-relaxed mb-6 flex-grow">
+          {project.solution} {project.impact}
+        </p>
+        <div className="flex items-center text-gray-400 text-sm font-bold group-hover:text-green-600 transition-all duration-300 mt-auto">
+          View Live Project <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+        </div>
+      </div>
+    </a>
+  );
+};
 
 const Portfolio = () => {
   const projects = [
     {
       title: "Naveen Textiles",
       category: "E-Commerce Platform",
-      image: "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?q=80&w=800&auto=format&fit=crop",
+      images: [
+        "/images/projects/naveentextiles1.png",
+        "/images/projects/naveentextiles2.png"
+      ],
       url: "https://naveentextiles.online",
       challenge: "Transforming a massive offline inventory into a seamless digital storefront without compromising mobile load speeds.",
       solution: "Engineered a high-performance e-commerce architecture with a dynamic global CDN for instant image delivery.",
@@ -16,7 +90,10 @@ const Portfolio = () => {
     {
       title: "RVS Hydraulics",
       category: "Industrial & Manufacturing",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
+      images: [
+        "/images/projects/rvs1.png",
+        "/images/projects/rvs2.png"
+      ],
       url: "https://rvshydraulics.com",
       challenge: "Replacing an outdated PDF-based catalog with a professional, searchable digital platform for B2B clients.",
       solution: "Developed a structured B2B portal featuring advanced filtering and a direct quote-request pipeline.",
@@ -25,7 +102,10 @@ const Portfolio = () => {
     {
       title: "Balu Associates",
       category: "Real Estate & Consulting",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
+      images: [
+        "/images/projects/baluassocities1.png",
+        "/images/projects/baluassocities2.png"
+      ],
       url: "https://baluassociates.net",
       challenge: "Establishing a premium corporate identity to attract high-net-worth investors in a competitive market.",
       solution: "Crafted an elegant, responsive platform emphasizing trust signals and dynamic property showcases.",
@@ -34,7 +114,10 @@ const Portfolio = () => {
     {
       title: "Kada GWRS",
       category: "Custom Web Application",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+      images: [
+        "/images/projects/kadagwrs.png",
+        "/images/projects/kadagwrs1.png"
+      ],
       url: "https://kadagwrs.vercel.app",
       challenge: "Processing and displaying highly complex data dynamically without any user-facing latency.",
       solution: "Architected a Next.js application deployed on edge networks for instantaneous real-time data fetching.",
@@ -89,40 +172,7 @@ const Portfolio = () => {
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <a 
-                key={index} 
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group w-full bg-white rounded-[2rem] overflow-hidden transition-all duration-500 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 flex flex-col"
-              >
-                {/* Image Header */}
-                <div className="h-56 overflow-hidden relative">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-80"></div>
-                  <div className="absolute top-6 left-6 w-14 h-14 rounded-full bg-white flex items-center justify-center text-green-600 shadow-md group-hover:scale-110 transition-transform duration-300">
-                    <ExternalLink size={24} />
-                  </div>
-                </div>
-                
-                {/* Content */}
-                <div className="p-8 pt-8 flex-grow flex flex-col bg-white">
-                  <span className="text-xs font-bold text-green-600 mb-2 block uppercase tracking-wider">{project.category}</span>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight group-hover:text-green-600 transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-[15px] text-gray-600 font-medium leading-relaxed mb-6 flex-grow">
-                    {project.solution} {project.impact}
-                  </p>
-                  <div className="flex items-center text-gray-400 text-sm font-bold group-hover:text-green-600 transition-all duration-300 mt-auto">
-                    View Live Project <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                  </div>
-                </div>
-              </a>
+              <ProjectCard key={index} project={project} />
             ))}
           </div>
         </div>
