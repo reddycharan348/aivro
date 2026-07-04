@@ -29,7 +29,7 @@ const Hero = () => {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl text-gray-800 font-light leading-tight mb-6 tracking-tight">
               We Build <br />
-              <span className="inline-block mt-2 bg-yellow-400 text-black px-5 py-1.5 rounded-xl font-semibold shadow-sm transform -rotate-1">
+              <span className="inline-block mt-2 bg-green-500 text-white px-5 py-1.5 rounded-xl font-semibold shadow-sm transform -rotate-1">
                 Digital Experiences
               </span>
             </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 items-center mb-12">
               <a
                 href="/contact"
-                className="group inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-yellow-400 text-black text-sm font-bold shadow-[0_8px_20px_rgba(250,204,21,0.4)] transition-all hover:bg-yellow-500 hover:-translate-y-1 active:scale-95"
+                className="group inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-green-500 text-white text-sm font-bold shadow-[0_8px_20px_rgba(34,197,94,0.4)] transition-all hover:bg-green-600 hover:-translate-y-1 active:scale-95"
               >
                 Start Your Project <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </a>
