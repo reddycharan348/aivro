@@ -2,11 +2,11 @@ import React from 'react';
 
 const Testimonials = () => {
   const reviews = [
-    { name: "Marcus Thorne", role: "VP of Product, TechFlow Inc.", text: "Aivro completely revolutionized our enterprise platform architecture. Their attention to detail and high-performance design exceeded every expectation." },
-    { name: "Seraphina Vance", role: "Founder, Elysian Retail", text: "We commissioned Aivro to build a bespoke Next.js mobile system. The user conversion doubled, and the technical implementation was flawless." },
-    { name: "Dr. Kenji Sato", role: "AI Research Lead, NeuralGrid", text: "Their implementation of automated workflows and system architecture is outstanding. They are a top-tier technical partner." },
-    { name: "Elena Rostova", role: "Marketing Director, VeloTech", text: "The quality of code, speed, and design is exceptional. Aivro operates at a level far above traditional digital agencies." },
-    { name: "Devon Sinclair", role: "Managing Director, Apex Luxury", text: "A clean, highly performant UI/UX deployment. Aivro delivered a corporate platform that truly reflects our professional standing." }
+    { name: "Management Team", role: "RVS Hydraulics", text: "Aivro completely modernized our sales and services platform. Their attention to detail and high-performance design exceeded every expectation." },
+    { name: "Director", role: "Balu Associates", text: "We commissioned Aivro to build a bespoke platform for our tax consultancy. The user engagement doubled, and the technical implementation was flawless." },
+    { name: "Operations Head", role: "Naveen Textiles", text: "Their implementation of our digital catalog and architecture is outstanding. They are a top-tier technical partner for retail solutions." },
+    { name: "Project Lead", role: "Kuppam Area Development Authority", text: "The quality of code, speed, and design is exceptional. Aivro delivered a highly robust platform tailored perfectly for KADA and IITK." },
+    { name: "CEO", role: "Geo Silicon", text: "A clean, highly performant UI/UX deployment. Aivro delivered a corporate platform that truly reflects our professional standing and technical depth." }
   ];
 
   return (
