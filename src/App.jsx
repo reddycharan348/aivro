@@ -15,11 +15,13 @@ import TermsOfService from './pages/TermsOfService';
 import RefundPolicy from './pages/RefundPolicy';
 import { ArrowRight, Mail, Phone, MapPin } from 'lucide-react';
 import VisitorCounter from './components/VisitorCounter';
+import FloatingSocials from './components/FloatingSocials';
 
 function App() {
   return (
     <div className="font-sans antialiased text-gray-900 flex flex-col min-h-screen bg-[#f3f1ec] selection:bg-pink-500/20">
       <Navbar />
+      <FloatingSocials />
       
       <main className="flex-grow pt-0 relative z-10">
         <Routes>
