@@ -3,7 +3,7 @@ import { ArrowRight, Code, Smartphone, Monitor, Gamepad2, Search } from 'lucide-
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-[90vh] flex flex-col justify-center overflow-hidden bg-gray-50 pt-24 pb-32">
+    <section id="home" className="relative min-h-[90vh] flex flex-col justify-center bg-gray-50 pt-24 pb-32">
 
       {/* Background Image with Gradient Fade */}
       <div className="absolute inset-0 z-0">
