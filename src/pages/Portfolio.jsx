@@ -133,6 +133,30 @@ const Portfolio = () => {
       challenge: "Building a modern, professional web presence.",
       solution: "Developed a responsive platform.",
       impact: "Enhanced digital footprint and credibility."
+    },
+    {
+      title: "Bhagwathi IT Solution",
+      category: "IT Solutions",
+      images: [
+        "/images/projects/bhagwathi it solution.png",
+        "/images/projects/bhagwathi it solution2.png"
+      ],
+      url: "https://nani-348.github.io/Shiva_anna/",
+      challenge: "Building a comprehensive digital presence for a fast-growing IT solutions provider.",
+      solution: "Developed a modern, responsive landing page highlighting their core technical services.",
+      impact: "Significantly increased client engagement and established a strong digital footprint."
+    },
+    {
+      title: "APII",
+      category: "Digital Platform",
+      images: [
+        "/images/projects/apii1.png",
+        "/images/projects/apii11.png"
+      ],
+      url: "https://appi123.vercel.app/",
+      challenge: "Creating a highly performant and user-friendly interface for a new web service.",
+      solution: "Engineered a dynamic React application with optimized assets and modern UI patterns.",
+      impact: "Greatly improved user retention and simplified the overall user journey."
     }
   ];
 

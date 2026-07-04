@@ -6,7 +6,9 @@ const Testimonials = () => {
     { name: "Director", role: "Balu Associates", text: "We commissioned Aivro to build a bespoke platform for our tax consultancy. The user engagement doubled, and the technical implementation was flawless." },
     { name: "Operations Head", role: "Naveen Textiles", text: "Their implementation of our digital catalog and architecture is outstanding. They are a top-tier technical partner for retail solutions." },
     { name: "Project Lead", role: "Kuppam Area Development Authority", text: "The quality of code, speed, and design is exceptional. Aivro delivered a highly robust platform tailored perfectly for KADA and IITK." },
-    { name: "CEO", role: "Geo Silicon", text: "A clean, highly performant UI/UX deployment. Aivro delivered a corporate platform that truly reflects our professional standing and technical depth." }
+    { name: "CEO", role: "Geo Silicon", text: "A clean, highly performant UI/UX deployment. Aivro delivered a corporate platform that truly reflects our professional standing and technical depth." },
+    { name: "Founder", role: "Bhagwathi IT Solution", text: "Aivro crafted a stunning digital presence for us. Their ability to translate complex technical services into a clean, modern landing page was remarkable." },
+    { name: "Product Manager", role: "APII", text: "They engineered a highly dynamic and optimized application for us. The interface is intuitive, and our user retention has significantly improved." }
   ];
 
   return (
