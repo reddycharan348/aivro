@@ -14,6 +14,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
 import RefundPolicy from './pages/RefundPolicy';
 import { ArrowRight, Mail, Phone, MapPin } from 'lucide-react';
+import VisitorCounter from './components/VisitorCounter';
 
 function App() {
   return (
@@ -162,6 +163,7 @@ function App() {
             <div className="text-xs text-gray-500 font-medium">
               &copy; {new Date().getFullYear()} Aivro. All rights reserved.
             </div>
+            <VisitorCounter />
             <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs font-medium text-gray-500">
               <a href="/privacy-policy" className="hover:text-gray-900 transition-colors">Privacy Policy</a>
               <a href="/terms-of-service" className="hover:text-gray-900 transition-colors">Terms of Service</a>
