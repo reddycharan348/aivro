@@ -177,7 +177,7 @@ const Contact = () => {
           <div className="space-y-4">
             <div className="bg-white border border-gray-200 shadow-sm p-8 rounded-[2rem] text-left hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <h3 className="text-lg font-bold text-gray-900 mb-3 tracking-tight">What is your typical project timeline?</h3>
-              <p className="text-sm text-gray-600 font-medium leading-relaxed">Timelines vary depending on scope, but a standard enterprise web application typically takes 12-16 weeks from discovery to initial production deployment. Complex architectural migrations may span 6-9 months across multiple phased rollouts.</p>
+              <p className="text-sm text-gray-600 font-medium leading-relaxed">Timelines vary depending on scope, but a standard project typically takes 10 to 30 days from discovery to initial deployment. Complex migrations or massive enterprise architectures may span longer across phased rollouts.</p>
             </div>
             
             <div className="bg-white border border-gray-200 shadow-sm p-8 rounded-[2rem] text-left hover:shadow-md hover:-translate-y-1 transition-all duration-300">
