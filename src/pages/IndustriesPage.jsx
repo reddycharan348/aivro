@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import { ArrowRight } from 'lucide-react';
 import { industriesData } from '../data/constants';
 import { Link } from 'react-router-dom';
@@ -14,6 +15,7 @@ const IndustriesPage = () => {
 
   return (
     <div className="bg-[#f3f1ec] min-h-screen relative overflow-hidden">
+      <SEO title="Industries We Serve" description="From Healthcare to E-Commerce, we build bespoke digital platforms tailored to your industry's specific challenges." />
       
       {/* Background blobs */}
       <div 

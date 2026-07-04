@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
 import Testimonials from '../components/Testimonials';
@@ -13,6 +14,7 @@ import ScrollSequence from '../components/ScrollSequence';
 const Home = () => {
   return (
     <div className="bg-transparent relative">
+      <SEO title="Bespoke Creative Engineering & AI Studio" description="Aivro is an ultra-premium creative tech and AI studio crafting bleeding-edge web platforms and custom mobile systems." />
       <ScrollSequence />
       <Hero />
       <Motive />

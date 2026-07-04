@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { servicesData } from '../data/constants';
@@ -18,6 +19,7 @@ const ServiceDetail = () => {
 
   return (
     <div className="min-h-screen relative bg-[#f3f1ec]">
+      <SEO title={service.title} description={service.desc} />
       
       {/* Dark Hero Section */}
       <div className="bg-[#1e293b] pt-32 pb-40 relative px-4">

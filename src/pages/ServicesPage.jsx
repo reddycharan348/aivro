@@ -1,4 +1,5 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import Process from '../components/Process';
 import { ArrowRight } from 'lucide-react';
 import { servicesData } from '../data/constants';
@@ -8,6 +9,7 @@ import Industries from '../components/Industries';
 const ServicesPage = () => {
   return (
     <div className="bg-[#f3f1ec] min-h-screen relative overflow-hidden">
+      <SEO title="Our Services" description="Explore our premium web design, app development, SEO, and AI automation services engineered to scale your business." />
       
       {/* Background blobs (Opposite colors splitted at corners) */}
       <div 

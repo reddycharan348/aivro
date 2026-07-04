@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SEO from '../components/SEO';
 import { ExternalLink, Target, Lightbulb, TrendingUp, Building2, ShieldCheck, ShoppingCart, ChevronLeft, ChevronRight } from 'lucide-react';
 import TiltCard from '../components/TiltCard';
 
@@ -28,6 +29,7 @@ const ProjectCard = ({ project }) => {
       rel="noopener noreferrer"
       className="group w-full bg-white rounded-[2rem] overflow-hidden transition-all duration-500 border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-2 flex flex-col"
     >
+      <SEO title="Our Portfolio" description="View our recent enterprise projects, web applications, and stunning digital experiences delivered by Aivro." />
       {/* Image Header with Slider */}
       <div className="h-56 overflow-hidden relative">
         {project.images.map((img, idx) => (

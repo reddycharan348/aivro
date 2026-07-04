@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { industriesData } from '../data/constants';
@@ -17,6 +18,7 @@ const IndustryDetail = () => {
 
   return (
     <div className="min-h-screen relative bg-[#f3f1ec]">
+      <SEO title={industry.name} description={industry.desc} />
       
       {/* Dark Hero Section */}
       <div className="bg-[#1e293b] pt-32 pb-40 relative px-4">

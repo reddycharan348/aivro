@@ -1,8 +1,10 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const RefundPolicy = () => {
   return (
     <div className="bg-[#f3f1ec] min-h-screen pt-40 pb-24">
+      <SEO title="Refund Policy" description="Review Aivro's refund and cancellation policies for our digital services." />
       <div className="container mx-auto px-4 max-w-4xl bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-gray-200 text-left">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-8 tracking-tight">Refund Policy</h1>
         

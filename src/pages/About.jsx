@@ -1,10 +1,12 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import { Globe, Mail } from 'lucide-react';
 import Motive from '../components/Motive';
 
 const About = () => {
   return (
     <div className="bg-[#f3f1ec] min-h-screen relative overflow-hidden">
+      <SEO title="About Us" description="Learn about Aivro's story, our veteran engineers, and our unwavering commitment to digital excellence." />
       
       {/* Background blobs (Opposite colors splitted at corners) */}
       <div 

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import SEO from '../components/SEO';
 import { ArrowRight, Calendar, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -39,6 +40,7 @@ const Blog = () => {
 
   return (
     <div className="bg-[#f3f1ec] min-h-screen pt-40 pb-24 relative overflow-hidden">
+      <SEO title="Insights & News" description="Read the latest insights on web development, AI automation, and digital strategy from the experts at Aivro." />
       
       {/* Background blobs (Opposite colors splitted at corners) */}
       <div 

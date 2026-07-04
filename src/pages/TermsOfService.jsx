@@ -1,8 +1,10 @@
 import React from 'react';
+import SEO from '../components/SEO';
 
 const TermsOfService = () => {
   return (
     <div className="bg-[#f3f1ec] min-h-screen pt-40 pb-24">
+      <SEO title="Terms of Service" description="Read the terms of service and usage guidelines for Aivro." />
       <div className="container mx-auto px-4 max-w-4xl bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-gray-200 text-left">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-8 tracking-tight">Terms of Service</h1>
         

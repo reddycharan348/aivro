@@ -1,10 +1,12 @@
 import React from 'react';
+import SEO from '../components/SEO';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Contact = () => {
 
   return (
     <div className="bg-[#f3f1ec] min-h-screen relative overflow-hidden">
+      <SEO title="Contact Us" description="Ready to build your dream website? Contact Aivro for a free consultation and let's turn your vision into reality." />
       
       {/* Background blobs (Opposite colors splitted at corners) */}
       <div 
