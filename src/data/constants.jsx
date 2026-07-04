@@ -42,7 +42,7 @@ export const servicesData = [
     longDesc: 'In a mobile-first world, your business needs to live in your customers\' pockets. We build powerful, intuitive mobile applications for both iOS and Android. Whether you need a customer-facing utility app, an e-commerce mobile store, or an internal enterprise tool, we develop highly responsive apps that leverage device hardware to deliver seamless, engaging mobile experiences.',
     color: 'from-violet-500 to-violet-600',
     iconBg: 'bg-violet-500/10 text-violet-500',
-    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/services/app-development.png',
     features: ['Cross-platform React Native & Flutter development', 'Native iOS (Swift) & Android (Kotlin) apps', 'Secure API and backend integrations'],
     benefits: ['Direct access to your customers\' home screens', 'Enhanced customer loyalty and engagement', 'Push notifications for instant marketing'],
     results: ['Massive increase in mobile revenue', 'Higher user retention rates', 'A dominant presence on App Stores']
@@ -159,7 +159,7 @@ export const servicesData = [
     longDesc: 'Words sell. Weak copy confuses customers and loses sales, while powerful writing commands attention and drives action. We provide professional, SEO-optimized copywriting services that capture your brand’s voice perfectly. From engaging blog posts that draw organic traffic to persuasive landing pages designed to convert, we craft the compelling narratives that your business needs to succeed.',
     color: 'from-indigo-500 to-indigo-600',
     iconBg: 'bg-indigo-500/10 text-indigo-500',
-    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead2708?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/services/content-writing.png',
     features: ['High-value, keyword-rich blog articles', 'Persuasive, high-converting sales copywriting', 'Engaging, shareable social media captions'],
     benefits: ['Establish unquestionable industry authority', 'Capture extremely high organic search intent', 'Deliver a crystal-clear value proposition'],
     results: ['Significantly higher conversion rates', 'Increased average time spent on site', 'A massive boost in social shares and reach']
@@ -172,7 +172,7 @@ export const servicesData = [
     longDesc: 'When you need immediate traffic and sales, nothing beats Google Ads. However, without expert management, PPC campaigns can drain your budget overnight. We design highly targeted, data-driven ad campaigns that put your business in front of customers exactly when they are searching for what you offer. We obsessively test ad copy, optimize bids, and refine targeting to ensure you get the absolute maximum return on your ad spend.',
     color: 'from-yellow-500 to-yellow-600',
     iconBg: 'bg-yellow-500/10 text-yellow-500',
-    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop',
+    imageUrl: '/images/services/google-ads.png',
     features: ['Highly optimized dynamic search campaigns', 'Aggressive retargeting pixel setup', 'Continuous A/B ad copy and creative testing'],
     benefits: ['Immediate, high-volume traffic generation', 'Laser-focused targeting of ideal audiences', 'Total, granular control over your daily budget'],
     results: ['Consistently lower cost per click (CPC)', 'The maximum possible return on ad spend (ROAS)', 'Highly predictable and scalable revenue growth']
