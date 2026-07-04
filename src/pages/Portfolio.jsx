@@ -147,7 +147,7 @@ const Portfolio = () => {
       impact: "Significantly increased client engagement and established a strong digital footprint."
     },
     {
-      title: "APII",
+      title: "HKGN Egg Shop",
       category: "Digital Platform",
       images: [
         "/images/projects/apii1.png",
