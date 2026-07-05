@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold text-gray-900 uppercase tracking-wider mb-1">Office Location</h4>
-                    <p className="text-sm text-gray-600 font-medium leading-relaxed">100 Tech Innovation Way<br/>Suite 500<br/>San Francisco, CA 94105</p>
+                    <p className="text-sm text-gray-600 font-medium leading-relaxed">Pedda bommanapalli(v, Kuppam, Donkumanipalle, Andhra Pradesh 517423</p>
                   </div>
                 </div>
 
